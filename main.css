@@ -47,6 +47,17 @@ body {
     position: relative;
 }
 
+.todo-item.editing .textfield {
+    position: absolute;
+    left: 44px;
+    top: 17px;
+    display: block;
+}
+
+.todo-item.editing .title {
+    display: none;
+}
+
 .todo-item .checkbox {
     position: absolute;
     left: 18px;
